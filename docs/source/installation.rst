@@ -12,8 +12,7 @@ In this section you will be guided in the process of installing Simplicage as an
 .. note::
     Do not unpack the .zip file before installing the addon. Select directly the file you download.
 
-Procedure
---------
+The steps are the following.
 
 #. Open Blender *Settings*.
 
