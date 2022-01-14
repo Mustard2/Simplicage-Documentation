@@ -9,6 +9,9 @@ In this section you will be guided in the process of installing Simplicage as an
     In particular, the addon is compatible with Blender 3.0.x or newest versions.
     We can not provide any support for installing Simplicage on earlier versions.
 
+.. warning::
+    Do not unpack the .zip file before installing the addon. Select directly the file you download.
+
 Procedure
 --------
 
@@ -19,12 +22,10 @@ Procedure
 
 #. Open the *Add-on* tab and click on the *Install...* button.
 
-.. image:: images/simplicage_install_02.png
-   :width: 500
+    .. image:: images/simplicage_install_02.png
+       :width: 500
 
 #. Select the file *Simplicage.zip*.
-    .. warning::
-        Do not unpack the .zip file before installing the addon. Select directly the file you download.
 
 #. In the Setting window it should now appear the Simplicage addon. *Enable it* clicking on the check button.
 
@@ -33,9 +34,7 @@ Procedure
 
 #. Restart Blender.
 
-#. You can now start using the addon.
-    Go in Viewport and press N: you will enable the tabs on the right as in the image.
-    Search for Simplicage and start using the addon!
+#. You can now start using the addon. Go in Viewport and press N: you will enable the tabs on the right as in the image. Search for Simplicage and start using the addon!
 
     .. image:: images/simplicage_install_04.png
        :width: 300
