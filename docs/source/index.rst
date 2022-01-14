@@ -15,5 +15,5 @@ Contents
 
    installation
    first-cage
-   usage
    limitations
+   contacts
