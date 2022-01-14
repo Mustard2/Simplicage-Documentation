@@ -14,4 +14,6 @@ Contents
 .. toctree::
 
    installation
+   first-cage
    usage
+   limitations
