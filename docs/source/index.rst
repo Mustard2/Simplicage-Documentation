@@ -15,5 +15,6 @@ Contents
 
    installation
    first-cage
+   advanced-settings
    limitations
    contacts
