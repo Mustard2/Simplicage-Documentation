@@ -6,7 +6,7 @@ Simplicage Documentation
 
 .. note::
 
-   This project is under active development.
+   This documentation refers to an unreleased add-on.
 
 Contents
 --------
