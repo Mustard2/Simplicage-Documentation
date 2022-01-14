@@ -15,6 +15,7 @@ Contents
 
    installation
    first-cage
+   cage-mode
    advanced-settings
    examples
    troubleshooting
