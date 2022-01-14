@@ -1,9 +1,6 @@
-Template for the Read the Docs tutorial
+Simplicage Documentation
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+The documentation is available at:
 
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+https://simplicage.readthedocs.io/en/latest/
