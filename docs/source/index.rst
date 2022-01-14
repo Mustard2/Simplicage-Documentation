@@ -16,5 +16,7 @@ Contents
    installation
    first-cage
    advanced-settings
+   examples
+   troubleshooting
    limitations
    contacts
