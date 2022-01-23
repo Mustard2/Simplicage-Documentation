@@ -246,13 +246,19 @@ In this section you can select the preset to use.
 
 Some are available by default. To create new ones:
 
-#. change the cloth settings of the cage
+#. Change the cloth settings of the cage
 
-#. press on +
+    .. image:: images/cloth_settings_cage.png
+           :width: 300
 
-#. choose a name and Create
+#. Press on *+ button* near the preset list
 
-Then you can call a preset just selecting it from the list.
+    .. image:: images/presets_new.png
+           :width: 300
+
+#. Choose a name and Create
+
+Then you can call a preset just selecting it from the list. To delete a preset, click on the *- button*.
 
 .. note::
     You can also generate a cage without physics, disabling *Apply Physics*.
