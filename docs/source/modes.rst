@@ -3,7 +3,7 @@ Modes
 
 In this section we list the different modes available on Simplicage.
 
-Single Selection Mode
+Single Bone Mode
 -----------
 
 The default mode creates a cage for each of the selected bones.
