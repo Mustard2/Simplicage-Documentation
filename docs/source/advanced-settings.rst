@@ -7,7 +7,22 @@ Pin Groups
 Use Proximity Data
 -------
 
+With *Use Proximity Data*, the cage pin group will be generated setting weights to 0 for all vertices that are near the cage mesh. Higher values of the factor can be used to increase the distance.
 
+#. *Use Proximity Data* disabled
+
+    .. image:: images/no_use_proximity.png
+           :width: 300
+
+#. *Use Proximity Data* enabled with default factor 0.02
+
+    .. image:: images/use_proximity_002.png
+           :width: 300
+
+#. *Use Proximity Data* enabled with max factor 0.2
+
+    .. image:: images/use_proximity_02.png
+           :width: 300
 
 Normalization
 -------
