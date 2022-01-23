@@ -22,3 +22,8 @@ Physics Simulation
 * Cages are not simulating physics correctly.
   
   Sometime Blender caches the physics and does not flush them when a new simulation is started. To solve most of the issues, you should go in the Physics Cloth settings of the cage and manually change the final frame value on the Cache tab. This will force Blender to consider the current cache obsolete.
+
+Debug
+------
+
+If you enable the console (on Windows, press F3 and search for *Toggle System Console*), some debug infos will be written when the cage is generated. If an un-documented error happens, please send use the content of your console to help us fix the error.
