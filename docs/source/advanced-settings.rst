@@ -81,7 +81,7 @@ You can also use the *Resolution* setting to increase the number of vertices of 
            :width: 300
 
 .. note::
-    Even if the remeshed cage seems to have some problems at the boundary, it is perfectly fine and will not generate problems during the evolution. In fact, the remeshed mesh will behave better in general, due to the nicer topology, with respect to the non-remeshed one.
+    Even if the remeshed cage seems to have some problems at the boundary, it is perfectly fine and will not generate problems during the simulation. In fact, the remeshed mesh will behave better in general, due to the nicer topology, with respect to the non-remeshed one.
 
 Clean Selection
 -------
