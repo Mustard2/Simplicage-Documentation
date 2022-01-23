@@ -4,7 +4,7 @@ Contacts
 Discord
 -------
 
-
+You can contact us on the `dedicated Discord server <https://discord.gg/rz28FxGNJg>`_ for help/bug report/feedbacks.
 
 Twitter
 -------
