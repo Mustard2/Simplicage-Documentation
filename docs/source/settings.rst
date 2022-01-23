@@ -238,3 +238,21 @@ Smooth Correction
 -------
 
 With this option, a Smooth Correction modifier will be added to the mesh to smooth the simulation. You can disable it after cage generation as usual, in the Modifier tab of the mesh object.
+
+Cloth Physics Settings
+*********
+
+In this section you can select the preset to use.
+
+Some are available by default. To create new ones:
+
+#. change the cloth settings of the cage
+
+#. press on +
+
+#. choose a name and Create
+
+Then you can call a preset just selecting it from the list.
+
+.. note::
+    You can also generate a cage without physics, disabling *Apply Physics*.
