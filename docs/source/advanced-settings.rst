@@ -26,7 +26,7 @@ Re-size Scale
 
 *Re-size Scale* is the factor with which the final cage is rescaled using the cage *Origin to Center of Mass (Surface)* point as the origin.
 
-.. info::
+.. note::
     We advise to use a value slightly bigger than 1 for physics cages, and a value of 1 for Colllision cages.
 
 #. *Re-size Scale* = 1
@@ -39,7 +39,7 @@ Re-size Scale
     .. image:: images/scale_105.png
            :width: 300
 
-.. warn::
+.. warning::
     If the mesh is complex, the rescaling might be not perfect due to the choice of the origin. While this is not an issue when using Surface Deform binding option (see below), it might be a problem when using Mehs Deform as the cage might fail to enclose the whole mesh. In this case, small manual tweaks of the mesh might be needed.
 
 Pin Groups
