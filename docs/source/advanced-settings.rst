@@ -188,6 +188,7 @@ The normalization functions, and effects of different normalization functions on
 Parenting
 *********
 
+.. _Deform Method:
 Deform Method
 -------
 
