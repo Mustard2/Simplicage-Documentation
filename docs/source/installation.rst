@@ -1,7 +1,12 @@
 Installation
 ===================================
 
-In this section you will be guided in the process of installing Simplicage as an add-on.
+In this section you will be guided in the process of installing/updating Simplicage as an add-on.
+
+Install
+--------
+
+The installation of the model should be done through the Blender preferences.
 
 .. note::
     Before proceeding with the installation, `be sure to install the latest Blender version <https://www.blender.org/download/>`_.
