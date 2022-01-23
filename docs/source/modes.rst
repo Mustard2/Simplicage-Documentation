@@ -21,6 +21,9 @@ While selecting more bones, the addon will create a cage for each selected bone.
 Chain Mode
 -----------
 
+.. image:: images/cage.png
+   :width: 300
+
 This mode will generate a unique cage for the selected bones, instead of one for each bone.
 
 .. image:: images/chain_multiple_selection.png
