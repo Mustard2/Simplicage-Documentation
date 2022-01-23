@@ -157,21 +157,23 @@ The normalization functions, and effects of different normalization functions on
 
 #. Sigmoid normalization (default values)
 
-    :math:`Norm(w = \text{weights}) =\frac{1}{1 + \exp[-f*(w-s)]}`
+    :math:`Norm(w = \text{weights}) =\frac{1}{1 + \exp[-\text{f}*(w-\text{s})]}`
 
     .. image:: images/weights_normalization/sigmoid.png
        :width: 300
 
 #. Tanh normalization (gain 0.8 and min 0.2)
     
-    :math:`Norm(w = \text{weights}) =\tanh(g*w) + m`
+    :math:`Norm(w = \text{weights}) =\tanh(\text{g}*w) + \text{m}`
+    
+    The gain g amplifies the vertex weights of the selected bone(s) and applies it to the newly generated cage, while min m is the minimum vertex weight that will be used.
     
     .. image:: images/weights_normalization/tanh_gain08_min02.png
        :width: 300
 
 #. Arcsch normalization (gain 1. and min 0.)
     
-    :math:`Norm(w = \text{weights}) = 1 - \tanh(w/g) + m`
+    :math:`Norm(w = \text{weights}) = 1 - \tanh(w/\text{g}) + \text{m}`
     
     .. image:: images/weights_normalization/arcsch_gain01_min0.png
        :width: 300
