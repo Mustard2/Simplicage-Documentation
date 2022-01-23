@@ -180,3 +180,55 @@ The normalization functions, and effects of different normalization functions on
     Mathematically, we are normalizing the cage pin group generated from the inverted bone group of the parent mesh, using the selected normalization function. We do this using the normalization function as value of the weight instead of the value of the weight itself.
     
     For those interested, you can plot these functions with `Desmos <https://www.desmos.com>`_.
+
+Parenting
+*********
+
+Deform Method
+-------
+
+Different methods to deform the mesh with the cage are available.
+
+#. Surface Deform
+
+    The default option, which in general provides better results and support parenting of the mesh with the armature. Therefore with this option the cage will firstly follow the armature bones, and then evaluate the physics simulation.
+    
+#. Mesh Deform
+    
+    This option can be selected if the Surface Deform binding keeps failing. It only support single bone parenting methods (see below).
+
+Parenting Method
+-------
+
+If Deform Method is choosen to be Mesh Deform, this option is available to choose parenting.
+
+#. Bone parenting
+
+    The cage will be parented to the bone with standard Blender parenting. Inverse transformation will be applied.
+    
+#. ChildOf
+    
+    A Child Of modifier will be used for parenting.
+
+Fix Influence
+-------
+
+*Fix Influence* creates a better influence group (the group used to defined with parts of the mesh are influenced by the cage in the Surface/Mesh Deform modifier) for the mesh.
+
+.. note::
+    We advise to always keep it enabled, with default factor.
+
+#. *Fix Influence* disabled
+
+    .. image:: images/no_fix_influence.png
+           :width: 300
+
+#. *Fix Influence* enabled with default setting
+    
+    .. image:: images/fix_influence.png
+           :width: 300
+
+Smooth Correction
+-------
+
+With this option, a Smooth Correction modifier will be added to the mesh to smooth the simulation. You can disable it after cage generation as usual, in the Modifier tab of the mesh object.
