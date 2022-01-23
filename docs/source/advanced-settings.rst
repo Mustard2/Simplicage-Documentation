@@ -29,6 +29,9 @@ Re-size Scale
 .. note::
     We advise to use a value slightly bigger than 1 for physics cages, and a value of 1 for Colllision cages.
 
+.. warning::
+    If the mesh is complex, the rescaling might be not perfect due to the choice of the origin. While this is not an issue when using Surface Deform binding option (see below), it might be a problem when using Mehs Deform as the cage might fail to enclose the whole mesh. In this case, small manual tweaks of the mesh might be needed.
+
 #. *Re-size Scale* = 1
 
     .. image:: images/scale_1.png
@@ -39,8 +42,59 @@ Re-size Scale
     .. image:: images/scale_105.png
            :width: 300
 
-.. warning::
-    If the mesh is complex, the rescaling might be not perfect due to the choice of the origin. While this is not an issue when using Surface Deform binding option (see below), it might be a problem when using Mehs Deform as the cage might fail to enclose the whole mesh. In this case, small manual tweaks of the mesh might be needed.
+Close Cage Mesh
+-------
+
+With this option you can choose to close the mesh, and the method to consider.
+
+.. note::
+    We advise to change the method only if errors are generated during mesh creation that tells you to do so.
+
+#. *Close Cage Mesh* disabled
+    
+    .. image:: images/no_close.png
+           :width: 300
+
+#. *Close Cage Mesh* enabled
+
+    .. image:: images/close.png
+           :width: 300
+
+Remesh
+-------
+
+*Remesh* enables the possibility to remesh the generated cage. This in general will provide a nicer topology if you use *Close Cage Mesh*.
+
+You can also use the *Resolution* setting to increase the number of vertices of the generated cages. Be aware that high resolutions can slow the simulation.
+
+.. note::
+    We advise to remesh physics cages, but to disable it for collision cages.
+
+#. *Remesh* disabled
+
+    .. image:: images/no_remesh.png
+           :width: 300
+
+#. *Remesh* enabled with Resolution 900
+    
+    .. image:: images/remesh_900.png
+           :width: 300
+
+.. note::
+    Even if the remeshed cage seems to have some problems at the boundary, it is perfectly fine and will not generate problems during the evolution. In fact, the remeshed mesh will behave better in general, due to the nicer topology, with respect to the non-remeshed one.
+
+Clean Selection
+-------
+
+This option improve the selection of the vertices used to generate the cage.
+
+.. note::
+    If the generated cage is not enclosing the whole mesh, disable this option.
+
+Smooth Correction
+-------
+
+With this option, a Smooth Correction modifier will be added to the cage to smooth the simulation. You can disable it after cage generation as usual, in the Modifier tab of the Cage object.
 
 Pin Groups
 *********
