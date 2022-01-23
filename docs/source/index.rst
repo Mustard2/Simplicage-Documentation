@@ -13,10 +13,10 @@ Main features
 
 The main features are the following.
 
-* Generation of physics-ready cages from mesh and bone selection
-* Generation of collision boxes from mesh and bone selection
-* Presets system, with some available by default for most common applications
-* Tool to manage available cages, and quickly bake them
+* **Generation of physics-ready cages** from mesh and bone selection
+* **Generation of collision boxes** from mesh and bone selection
+* **Presets system**, with some available by default for most common applications
+* **Tool to manage available cages**, and quickly bake them
 
 Contents
 --------
