@@ -11,5 +11,5 @@ Twitter
 
 You can also contact us on Twitter
 
-#. https://twitter.com/morelewd
-#. https://twitter.com/MustardSFM (**NSFW alert**)
+* `Morelewd <https://twitter.com/morelewd>`_
+* (**NSFW alert**) `Mustard <https://twitter.com/MustardSFM>`_
