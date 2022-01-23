@@ -28,6 +28,8 @@ The effect of different normalization functions on a simple example is the follo
 
 #. Sigmoid normalization
 
+    :math:`1/ (1 + \exp(-f*(x-s)))`
+
     .. image:: images/weights_normalization/sigmoid.png
        :width: 300
 
