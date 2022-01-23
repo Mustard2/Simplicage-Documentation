@@ -55,7 +55,7 @@ The normalization functions, and effects of different normalization functions on
 
 #. Arcsch normalization (gain 1. and min 0.)
     
-    :math:`Norm(w = \text{weights}) = 1 - np.tanh(w/g) + m`
+    :math:`Norm(w = \text{weights}) = 1 - \tanh(w/g) + m`
     
     .. image:: images/weights_normalization/arcsch_gain01_min0.png
        :width: 300
