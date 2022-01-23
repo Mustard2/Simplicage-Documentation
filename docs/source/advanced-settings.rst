@@ -18,6 +18,10 @@ The normalization functions, and effects of different normalization functions on
 
 #. None normalization
 
+    This function effectively set all weights to 0. If *Use Proximity Data* is disabled, the pin group would be all null. If enabled like in the figure, you still get a nice pinning on the part flat part of the half sphere.
+
+    :math:`Norm(w = \text{weights}) = 0`
+
     .. image:: images/weights_normalization/none.png
        :width: 300
 
