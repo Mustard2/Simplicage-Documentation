@@ -1,7 +1,7 @@
 First cage
 ===================================
 
-In this section we create the first cage with Simplicage.
+In this section we create the first cage with Simplicage!
 
 The quick cage setup requires only a couple of very simple steps:
 
@@ -21,3 +21,5 @@ The quick cage setup requires only a couple of very simple steps:
 
     .. image:: images/create_cage.png
        :width: 300
+
+More advanced options to customize your cage generation are available at :ref:`Settings<Settings>`
