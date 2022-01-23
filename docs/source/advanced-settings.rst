@@ -60,7 +60,7 @@ The normalization functions, and effects of different normalization functions on
     .. image:: images/weights_normalization/square.png
        :width: 300
 
-#. Sigmoid normalization
+#. Sigmoid normalization (default values)
 
     :math:`Norm(w = \text{weights}) =\frac{1}{1 + \exp[-f*(w-s)]}`
 
