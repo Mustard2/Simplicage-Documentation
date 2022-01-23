@@ -16,7 +16,7 @@ Contents
    installation
    first-cage
    modes
-   advanced-settings
+   settings
    examples
    troubleshooting
    limitations
