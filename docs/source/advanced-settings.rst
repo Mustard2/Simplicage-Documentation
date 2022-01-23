@@ -9,7 +9,7 @@ Covarage
 
 This option controls how much of the selected bone vertex group is considered when generating the cage.
 
-In the example, the vertex group on the sphere of the selected bone has non-null values on the whole spehere. Therefore a coverage of 1 will create a cage covering the whole sphere. When selecting 0.5 instead, we cover half the sphere.
+In the example, the vertex group on the sphere of the selected bone is shown. It has non-null values on the whole spehere. Therefore a coverage of 1 will create a cage covering the whole sphere. When selecting 0.5 instead, we cover half the sphere.
 
 #. *Coverage* = 1
 
@@ -214,6 +214,8 @@ Fix Influence
 -------
 
 *Fix Influence* creates a better influence group (the group used to defined with parts of the mesh are influenced by the cage in the Surface/Mesh Deform modifier) for the mesh.
+
+If not enabled, the bone group will be used instead.
 
 .. note::
     We advise to always keep it enabled, with default factor.
