@@ -17,6 +17,7 @@ Contents
    first-cage
    modes
    settings
+   manage-cages
    examples
    troubleshooting
    limitations
