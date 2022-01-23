@@ -29,3 +29,15 @@ This mode will generate a unique cage for the selected bones, instead of one for
 .. image:: images/chain_multiple_selection.png
    :width: 300
 
+Collision Box
+-----------
+
+.. image:: images/collision.png
+   :width: 300
+
+This mode will create a collision box instead of a cage for physics. This means that cages will collide with this collision box.
+
+Clicking on the generate collision box, we can also change the collision settings in the object Physics Options.
+
+.. image:: images/collision_settings.png
+   :width: 300
