@@ -18,6 +18,10 @@ The main features are the following.
 * **Presets system**, with some available by default for most common applications
 * **Tool to manage available cages**, and quickly bake them
 
+Requirements
+--------
+* Blender 3.0 or above (Blender 2.93 or older versions are not supported)
+
 Contents
 --------
 
