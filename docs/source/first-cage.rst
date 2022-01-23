@@ -14,4 +14,10 @@ The quick cage setup requires only a couple of very simple steps:
 
 * *Select a bone* of the armature whose Mesh Object is the one selected in the previous step.
 
+    .. image:: images/select_bone.png
+       :width: 300
+
 * Click on *Create Cage*.
+
+    .. image:: images/create_cage.png
+       :width: 300
