@@ -1,6 +1,9 @@
 Troubleshooting
 ===================================
 
+Errors
+------
+
 * **Error**: *An error occurred while remeshing. Try to re-restart Blender and re-try.*
   
   This error appears because of Blender remesher. We are working on a solution, for the moment the workaround if this happens is to save the file, close Blender and re-try.
@@ -12,6 +15,9 @@ Troubleshooting
   * Increase/decrease *Remesh* *Resolution* by steps of around 100/300
   * Change *Close Cage method*
   * Change *Deform method* to *Mesh Deform*. Use this only as last resource, as this method has some limitations, see :ref:`Deform Method<Deform Method>`.
+
+Physics Simulation
+------
 
 * Cages are not simulating physics correctly.
   
