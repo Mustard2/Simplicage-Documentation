@@ -108,6 +108,8 @@ Use Proximity Data
 
 With *Use Proximity Data*, the cage pin group will be generated setting weights to 0 for all vertices that are near the cage mesh. Higher values of the factor can be used to increase the distance.
 
+In the following example, *None* normalization is used.
+
 #. *Use Proximity Data* disabled
 
     .. image:: images/no_use_proximity.png
@@ -130,7 +132,7 @@ The normalization options are used to normalize the pin group weights. Most of t
 
 The normalization functions, and effects of different normalization functions on a simple example, are the following. All of the following examples weights are computed with *Use Proximity Data* enabled with default factor.
 
-#. None normalization
+#. *None* normalization
 
     :math:`Norm(w = \text{weights}) = 0`
 
@@ -141,28 +143,28 @@ The normalization functions, and effects of different normalization functions on
     .. image:: images/weights_normalization/none.png
        :width: 300
 
-#. Linear normalization
+#. *Linear* normalization
     
     :math:`Norm(w = \text{weights}) = w`
     
     .. image:: images/weights_normalization/linear.png
        :width: 300
 
-#. Square normalization
+#. *Square* normalization
 
     :math:`Norm(w = \text{weights}) = w^2`
 
     .. image:: images/weights_normalization/square.png
        :width: 300
 
-#. Sigmoid normalization (default values)
+#. *Sigmoid* normalization (default values)
 
     :math:`Norm(w = \text{weights}) =\frac{1}{1 + \exp[-\text{f}*(w-\text{s})]}`
 
     .. image:: images/weights_normalization/sigmoid.png
        :width: 300
 
-#. Tanh normalization (gain 0.8 and min 0.2)
+#. *Tanh* normalization (gain 0.8 and min 0.2)
     
     :math:`Norm(w = \text{weights}) =\tanh(\text{g}*w) + \text{m}`
     
@@ -171,7 +173,7 @@ The normalization functions, and effects of different normalization functions on
     .. image:: images/weights_normalization/tanh_gain08_min02.png
        :width: 300
 
-#. Arcsch normalization (gain 1. and min 0.)
+#. *Arcsch* normalization (gain 1. and min 0.)
     
     :math:`Norm(w = \text{weights}) = 1 - \tanh(w/\text{g}) + \text{m}`
     
@@ -191,11 +193,11 @@ Deform Method
 
 Different methods to deform the mesh with the cage are available.
 
-#. Surface Deform
+#. *Surface Deform*
 
     The default option, which in general provides better results and support parenting of the mesh with the armature. Therefore with this option the cage will firstly follow the armature bones, and then evaluate the physics simulation.
     
-#. Mesh Deform
+#. *Mesh Deform*
     
     This option can be selected if the Surface Deform binding keeps failing. It only support single bone parenting methods (see below).
 
@@ -204,11 +206,11 @@ Parenting Method
 
 If Deform Method is choosen to be Mesh Deform, this option is available to choose parenting.
 
-#. Bone parenting
+#. *Bone parenting*
 
     The cage will be parented to the bone with standard Blender parenting. Inverse transformation will be applied.
     
-#. ChildOf
+#. *ChildOf*
     
     A Child Of modifier will be used for parenting.
 
