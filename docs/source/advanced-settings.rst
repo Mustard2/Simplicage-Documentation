@@ -4,6 +4,10 @@ Advanced settings
 Pin Groups
 *********
 
+Pin vettex groups define which parts of the cage will be affected by the cloth simulation, and therefore which parts will actually be moved. In the vertex groups, each vertex has a weight assigned. In the case of pin groups, when the weight is 1, the simulation will not act on that vertex; on the contrary, a null value means that the vertices will fully partecipate in the simulation. In between values can be useful to smooth out the transition between pinned part (weight = 1) and simulated parts (weight = 0).
+
+In the images below, 0 values are depiced with blue color, and 1 values are depincted with red. Green/yellow color depicts in between values.
+
 Use Proximity Data
 -------
 
@@ -33,9 +37,11 @@ The normalization functions, and effects of different normalization functions on
 
 #. None normalization
 
-    This function effectively set all weights to 0. If *Use Proximity Data* is disabled, the pin group would be all null. If enabled like in the figure, you still get a nice pinning on the part flat part of the half sphere.
-
     :math:`Norm(w = \text{weights}) = 0`
+
+    This function effectively set all weights to 0. If *Use Proximity Data* is disabled, the pin group would be all null. If enabled like in the figure, you still get a nice pinning on the part flat part of the half sphere.
+    
+    It is useful to create simple weights, or without *Use Proximity Data* when we want to create a cage that is not pinned. In the latter case, the whole mesh will be simulated and it will interact with collision objects.
 
     .. image:: images/weights_normalization/none.png
        :width: 300
