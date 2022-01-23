@@ -11,4 +11,4 @@ Troubleshooting
   * Decrease *Coverage* by steps of 0.05
   * Increase/decrease *Remesh* *Resolution* by steps of around 100/300
   * Change *Close Cage method*
-  * Change *Deform method* to *Mesh Deform*. Use this only as last resource, as this method has some limitations :ref:`Deform Method`.
+  * Change *Deform method* to *Mesh Deform*. Use this only as last resource, as this method has some limitations, see :ref:`Deform Method<Deform Method>`.
