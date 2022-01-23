@@ -29,6 +29,9 @@ This mode will generate a unique cage for the selected bones, instead of one for
 .. image:: images/chain_multiple_selection.png
    :width: 300
 
+.. note::
+   If only one bone is selected, *Chain* mode will be automatically disabled when you generate the cage.
+
 Collision Box
 -----------
 
@@ -36,6 +39,9 @@ Collision Box
    :width: 300
 
 This mode will create a collision box instead of a cage for physics. This means that cages will collide with this collision box.
+
+.. note::
+   This mode can be used with *Chain*. Similarly to cages, if *Chain* is disabled, one collision box will be generated for each bone; if *Chain* is enabled, the collision box will be generated merging the contribution of all the selected bones.
 
 Clicking on the generate collision box, we can also change the collision settings in the object Physics Options.
 
