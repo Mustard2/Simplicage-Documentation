@@ -23,6 +23,13 @@ Physics Simulation
   
   Sometime Blender caches the physics and does not flush them when a new simulation is started. To solve most of the issues, you should go in the Physics Cloth settings of the cage and manually change the final frame value on the Cache tab. This will force Blender to consider the current cache obsolete.
 
+Physics Simulation
+------
+
+* Generated cages are not enclosing the whole mesh.
+
+  Try to disable :ref:`Clean Selection<Clean Selection>`.
+
 Debug
 ------
 
