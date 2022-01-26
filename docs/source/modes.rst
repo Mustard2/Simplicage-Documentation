@@ -1,15 +1,16 @@
 Cage Modes
 ===================================
 
-In this section we list the different cage modes available on Simplicage.
-
 .. image:: images/cage_mode.png
    :width: 300
 
-Single Bone Mode
+In this section we list the different cage modes available on Simplicage.
+Select one option to choose the method with with you want to select the region to generate the cage from.
+
+Single Bone
 -----------
 
-The default mode creates a cage for each of the selected bones.
+The Single Bone mode creates a cage for each of the selected bones.
 
 For instance, if we select one bone we obtain the single cage for the selected bone.
 
@@ -21,7 +22,7 @@ While selecting more bones, the addon will create a cage for each selected bone.
 .. image:: images/no_chain_multiple_selection.png
    :width: 300
 
-Chain Mode
+Chain
 -----------
 
 This mode will generate a unique cage for the selected bones, instead of one for each bone.
@@ -35,10 +36,11 @@ This mode will generate a unique cage for the selected bones, instead of one for
 Physics Modes
 ===================================
 
-In this section we list the different cage modes available on Simplicage.
-
 .. image:: images/physics_mode.png
    :width: 300
+
+In this section we list the different Physics modes available on Simplicage.
+Select one option to choose which kind of physics to apply to the cage.
 
 None
 -----------
@@ -48,17 +50,19 @@ In this mode, a cage without physics is generated.
 Cloth
 -----------
 
-In this mode, a cage wit cloth physics is generated. It wil also be bound to the Mesh from which it has been created.
+In this mode, a cage with cloth physics is generated. It will also be bound to the Mesh from which it has been created.
+
+Clicking on the generate cage, we can also change the cloth physics settings in the object Physics Options.
+
+.. image:: images/cloth_settings_cage.png
+   :width: 300
 
 Collision Box
 -----------
 
 This mode will create a collision box instead of a cage for physics. This means that cages will collide with this collision box.
 
-.. note::
-   This mode can be used with *Chain*. Similarly to cages, if *Chain* is disabled, one collision box will be generated for each bone; if *Chain* is enabled, the collision box will be generated merging the contribution of all the selected bones.
-
-Clicking on the generate collision box, we can also change the collision settings in the object Physics Options.
+Clicking on the generated collision box, we can also change the collision settings in the object Physics Options.
 
 .. image:: images/collision_settings.png
    :width: 300
