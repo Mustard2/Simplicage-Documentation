@@ -1,4 +1,4 @@
-Modes
+Cage Modes
 ===================================
 
 In this section we list the different modes available on Simplicage.
