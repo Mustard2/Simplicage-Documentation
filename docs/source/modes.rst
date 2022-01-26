@@ -1,7 +1,10 @@
 Cage Modes
 ===================================
 
-In this section we list the different modes available on Simplicage.
+In this section we list the different cage modes available on Simplicage.
+
+.. image:: images/cage_mode.png
+   :width: 300
 
 Single Bone Mode
 -----------
@@ -21,9 +24,6 @@ While selecting more bones, the addon will create a cage for each selected bone.
 Chain Mode
 -----------
 
-.. image:: images/cage.png
-   :width: 300
-
 This mode will generate a unique cage for the selected bones, instead of one for each bone.
 
 .. image:: images/chain_multiple_selection.png
@@ -32,11 +32,26 @@ This mode will generate a unique cage for the selected bones, instead of one for
 .. note::
    If only one bone is selected, *Chain* mode will be automatically disabled when you generate the cage.
 
-Collision Box
+Physics Modes
+===================================
+
+In this section we list the different cage modes available on Simplicage.
+
+.. image:: images/physics_mode.png
+   :width: 300
+
+None
 -----------
 
-.. image:: images/collision.png
-   :width: 300
+In this mode, a cage without physics is generated.
+
+Cloth
+-----------
+
+In this mode, a cage wit cloth physics is generated. It wil also be bound to the Mesh from which it has been created.
+
+Collision Box
+-----------
 
 This mode will create a collision box instead of a cage for physics. This means that cages will collide with this collision box.
 
