@@ -15,10 +15,10 @@ However, you are limited in creating cages only starting from single bones.
 Lite Version
 *********
 
-The Lite version provides all the Free version features, with the additional possibility to create cages from a multiple selection of bones. See the documentation part about :ref:`Chain<Chain>` for more informations on this feature.
+The Lite version provides all the Free version features, with the additional possibility to create cages from a multiple selection of bones. See the documentation part about :ref:`Modes<Modes>` for more informations on this feature.
 
 Pro Version
 *********
 
 In the Pro version you can create a cage from any vertex group, even if an Armature is not available for the Object you want to create the cage from.
-See the documentation part about :ref:`Vertex Group<Vertex Group>` for more informations on this feature.
+See the documentation part about :ref:`Modes<Modes>` for more informations on this feature.
