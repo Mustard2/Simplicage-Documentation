@@ -20,3 +20,5 @@ The Lite version provides all the Free version features, with the additional pos
 Pro Version
 *********
 
+In the Pro version you can create a cage from any vertex group, even if an Armature is not available for the Object you want to create the cage from.
+See the documentation part about :ref:`Vertex Group<Vertex Group>` for more informations on this feature.
