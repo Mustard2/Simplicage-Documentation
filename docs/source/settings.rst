@@ -88,8 +88,11 @@ Clean Selection
 
 This option improve the selection of the vertices used to generate the cage.
 
+**Clean Selection Threshold (Pro Version)**: in the Pro Version you can adjust the Clean Selection Threshold to try to fix some cage generation errors.
+
 .. note::
-    If the generated cage is not enclosing the whole mesh, disable this option.
+    If you are using the Free or Lite version, and the generated cage is not enclosing the whole mesh, disable this option.
+    Otherwise, with the Pro version you can try to increase the **Clean Selection Threshold**.
 
 Smooth Correction
 -------
