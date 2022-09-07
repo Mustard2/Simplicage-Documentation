@@ -4,7 +4,7 @@ Settings
 Cage
 *********
 
-Covarage
+Coverage
 -------
 
 This option controls how much of the selected bone vertex group is considered when generating the cage.
