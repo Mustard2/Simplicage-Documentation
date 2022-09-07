@@ -6,8 +6,8 @@ project = 'Simplicage'
 copyright = '2022, Morelewd and Mustard'
 author = 'Morelewd and Mustard'
 
-release = '0.1'
-version = '0.1.0'
+release = '1.0'
+version = '1.0'
 
 # -- General configuration
 
