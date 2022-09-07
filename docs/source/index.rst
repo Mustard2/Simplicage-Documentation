@@ -27,6 +27,7 @@ Contents
 
 .. toctree::
 
+   versions
    installation
    first-cage
    modes
