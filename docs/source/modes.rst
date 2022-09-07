@@ -1,5 +1,8 @@
-Cage Modes
+Modes
 ===================================
+
+Cage Modes
+*********
 
 .. image:: images/cage_modes2.png
    :width: 300
@@ -40,7 +43,7 @@ Vertex Group (Pro Version)
 This mode generates a cage from the Vertex Group of the Mesh object selected. This mode works also on Objects that are not driven by an Armature.
 
 Physics Modes
-===================================
+*********
 
 .. image:: images/physics_mode.png
    :width: 300
