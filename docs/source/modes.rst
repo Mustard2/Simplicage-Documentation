@@ -1,10 +1,11 @@
 Cage Modes
 ===================================
 
-.. image:: images/cage_mode.png
+.. image:: images/cage_modes2.png
    :width: 300
 
-In this section we list the different cage modes available on Simplicage.
+In this section we list the different cage modes available on Simplicage. Note that you might see less modes depending on the version you are using. Check the documentation part on :ref:`Versions<Versions>` for more information.
+
 Select one option to choose the method with with you want to select the region to generate the cage from.
 
 Single Bone
@@ -22,16 +23,21 @@ While selecting more bones, the addon will create a cage for each selected bone.
 .. image:: images/no_chain_multiple_selection.png
    :width: 300
 
-Chain
+Chain (Lite Version and Pro Version)
 -----------
 
-This mode will generate a unique cage for the selected bones, instead of one for each bone.
+This mode generates a unique cage for the selected bones, instead of one for each bone.
 
 .. image:: images/chain_multiple_selection.png
    :width: 300
 
 .. note::
    If only one bone is selected, *Chain* mode will be automatically disabled when you generate the cage.
+
+Vertex Group (Pro Version)
+-----------
+
+This mode generates a cage from the Vertex Group of the Mesh object selected. This mode works also on Objects that are not driven by an Armature.
 
 Physics Modes
 ===================================
