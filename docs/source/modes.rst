@@ -43,7 +43,7 @@ Vertex Group (Pro Version)
 This mode generates a cage from the Vertex Group of the Mesh object selected. This mode works also on Objects that are not driven by an Armature.
 
 .. image:: images/vertex_group_selection.png
-   :width: 300
+   :width: 900
 
 Physics Modes
 *********
