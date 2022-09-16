@@ -22,6 +22,7 @@ Contents
 --------
 
 .. toctree::
+   :maxdepth:1
 
    versions
    installation
