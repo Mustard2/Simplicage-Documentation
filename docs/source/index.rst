@@ -16,7 +16,7 @@ The main features are the following.
 
 Requirements
 --------
-* Blender 3.0 or above (Blender 2.93 or older versions are not supported)
+* Blender 3.2 or above (Blender 3.1.x or older versions are not supported)
 
 Contents
 --------
