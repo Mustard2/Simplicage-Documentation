@@ -48,6 +48,9 @@ Close Cage Mesh
 With this option you can choose to close the mesh, and the method to consider.
 
 .. note::
+    When creating a collision cage, better results might be achieved disabling the Remesh option and the Close Cage Mesh option.
+
+.. note::
     We advise to change the method only if errors are generated during mesh creation.
 
 #. *Close Cage Mesh* disabled
@@ -70,7 +73,7 @@ You can also use the *Resolution* setting to increase the number of vertices of 
 Finally, if some errors appears during the cage generation, you can also try to change the *Remesh seed*.
 
 .. note::
-    We advise to remesh physics cages, but to disable it for collision cages.
+    When creating a collision cage, better results might be achieved disabling the Remesh option and the Close Cage Mesh option.
 
 #. *Remesh* disabled
 
