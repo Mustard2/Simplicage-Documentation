@@ -26,5 +26,8 @@ Global Cache
 
 In this section you can bake the physics for all available cages. You can choose the initial and final frame, and with the double arrow button you can synchronise those values with the current initial and final animation frames values.
 
+.. note::
+  All generated cages will consider these values as initial and final frames for physics computation. Changing these values will change the value of all Simplicage cages, but not other physics objects you have in the scene.
+
 .. warning::
   Before chaging intial/final frame values or baking, it is advised to Delete All Bake. This will prevent issues related to already baked cages.
