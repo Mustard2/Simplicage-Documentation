@@ -14,7 +14,7 @@ Cages
 
 This part lists all the cages available on the scene.
 
-With the buttons you can show/hide in viewport (by default cages are always hidden in Render), and enable/disable physics simulation, each cage/collision box independently.
+With the buttons you can show/hide in viewport (by default cages are always hidden in Render), and enable/disable physics simulation, each cage/collision box independently. Moreover, the *X* button deletes the cage from the scene and its mesh data.
 
 Presets
 *********
