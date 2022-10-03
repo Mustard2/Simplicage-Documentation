@@ -74,10 +74,10 @@ Collision Box
 
 This mode will create a collision box instead of a cage for physics. This means that cages will collide with this collision box.
 
-Clicking on the generated collision box, we can also change the collision settings in the object Physics Options.
-
 .. note::
     When creating a collision cage, better results might be achieved disabling the Remesh option and the Close Cage Mesh option.
+
+Clicking on the generated collision box, we can also change the collision settings in the object Physics Options.
 
 .. image:: images/collision_settings.png
    :width: 300
