@@ -12,7 +12,7 @@ The quick cage setup requires only a couple of very simple steps:
     .. image:: images/select_mesh.png
        :width: 300
 
-* *Select a bone* of the armature whose Mesh Object is the one selected in the previous step.
+* Enter Pose mode and *Select a bone* of the armature whose Mesh Object is the one selected in the previous step.
 
     .. image:: images/select_bone.png
        :width: 300
